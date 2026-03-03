@@ -33,8 +33,9 @@ export const faculties: Faculty[] = [
     courses: [
       {
         id: "c1",
-        name: "Computer Science",
-        description: "Programming, algorithms, software development.",
+        name: "Computer Science/Information Technology",
+        description:
+          "Information technology (IT) involves using computer systems, software, networks, and hardware to create, process, store, secure, and exchange electronic data.",
         image: require("../assets/images/science.jpg"),
         video: require("../assets/videos/comp_science.mp4"),
         minimumRequirement: "Mathematics (C), English (C), Physics (C)",
@@ -42,7 +43,8 @@ export const faculties: Faculty[] = [
       {
         id: "c2",
         name: "Information Systems",
-        description: "Business processes and IT solutions.",
+        description:
+          "Information systems (IS) are integrated sets of components—hardware, software, data, people, and processes—that collect, process, store, and distribute information to support decision-making, coordination, and control in organizations..",
         image: require("../assets/images/information.png"),
         video: require("../assets/videos/info_systems.mp4"),
         minimumRequirement:
@@ -52,7 +54,7 @@ export const faculties: Faculty[] = [
         id: "c3",
         name: "Software Engineering",
         description:
-          "Advanced software development and engineering principles.",
+          "Software engineering is the systematic, disciplined engineering approach to the design, development, testing, and maintenance of software systems",
         image: require("../assets/images/software.png"),
         video: require("../assets/videos/software.mp4"),
         minimumRequirement: "Mathematics (B), English (C), Physics (C)",
@@ -60,16 +62,17 @@ export const faculties: Faculty[] = [
       {
         id: "c4",
         name: "Network Engineering",
-        description: "Computer networks and security systems.",
+        description:
+          "Network engineers design, implement, monitor, and manage an organization's IT infrastructure, including LANs, WANs, and firewalls to ensure secure and efficient data communication.",
         image: require("../assets/images/network.jpg"),
         video: require("../assets/videos/network.mp4"),
         minimumRequirement: "Mathematics (C), English (C), Physics (C)",
       },
       {
         id: "c5",
-        name: "Data Science",
+        name: "Business Information Technology",
         description:
-          "Data analysis, machine learning, and statistical modeling.",
+          "Business Information Technology (BIT) is an interdisciplinary field combining computer science with business management to develop, implement, and manage IT solutions that solve organizational problems",
         image: require("../assets/images/data.jpg"),
         video: require("../assets/videos/data_science.mp4"),
         minimumRequirement: "Mathematics (B), English (C), Statistics (C)",
