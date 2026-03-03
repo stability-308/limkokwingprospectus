@@ -9,7 +9,6 @@
     "scheme": "limkokwingprospectus",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-
     "ios": {
       "bundleIdentifier": "com.limkokwing.prospectus",
       "supportsTablet": true,
@@ -17,7 +16,6 @@
         "UIStatusBarStyle": "UIStatusBarStyleDarkContent"
       }
     },
-
     "android": {
       "package": "com.limkokwing.prospectus",
       "versionCode": 1,
@@ -28,12 +26,10 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": true
     },
-
     "web": {
       "output": "static",
       "favicon": "./assets/image/1.png"
     },
-
     "plugins": [
       "expo-router",
       [
@@ -48,14 +44,16 @@
         }
       ]
     ],
-
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
     },
-
     "extra": {
-      "projectName": "Limkokwing Prospectus"
+      "projectName": "Limkokwing Prospectus",
+      "router": {},
+      "eas": {
+        "projectId": "2c7c1a81-0ee6-4ff6-9fa3-8b4bfb471a4a"
+      }
     }
   }
 }
